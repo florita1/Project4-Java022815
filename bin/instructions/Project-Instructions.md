@@ -5,14 +5,16 @@ Once again, we're going to be building upon the Poker Hands projects seen in Wee
 
 As usual, these problems will not be formally graded, but you might be asked to share your solutions with the class. Any time on Saturday not spend working through this problem in workshop format will be spent presenting solutions to the class.
 
-**Save your `.java`, `.html`, and `.css` files in the `.answers` directory under a new directory called `FirstnameLastname` (using your first and last name, obviously).**
+**Save your `.java` files in the `.answers` directory under a new directory called `FirstnameLastname` (using your first and last name, obviously).**
 
 
 -------------
 
 #### Players should be able to use a basic graphic interface to choose between three card games.
 
-You may use any style of display to allow user input. These inlude buttons, drop-down menus, picture links, or user prompts. Card game options should include:
+Use the HTML and CSS templates included in the `resources` folder to build the front end of the website. All websites are built using a standard directory structure: the home page is displayed using the `index.html` file in the root directory, and any pages linked from the home pages are displayed through `index.html` files in sub-directories. This gives the website clean URLs and a neat organizational structure. All CSS files are in the `css` directory and are linked-to in the headers of each `index.html` file. You may manipulate these files if you'd like, or you can leave them as they are and focus solely on the back-end. We've provided the appropriate directory structure for poker, blackjack, and war internally-linked pages.
+
+On the landing page, players should be able to choose from the following card game options:
 
 - Poker (using the same rules as your previous projects)
 - Blackjack (for one player only)
